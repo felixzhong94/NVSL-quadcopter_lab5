@@ -91,7 +91,6 @@
 <layer number="112" name="tSilk" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="113" name="IDFDebug" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="114" name="Unresolved" color="12" fill="1" visible="yes" active="yes"/>
-<layer number="115" name="Resolved" color="10" fill="1" visible="yes" active="yes"/>
 <layer number="116" name="Patch_BOT" color="9" fill="4" visible="no" active="yes"/>
 <layer number="118" name="Rect_Pads" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="121" name="_tsilk" color="7" fill="1" visible="no" active="yes"/>
@@ -7563,123 +7562,6 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="quadparts">
-<packages>
-<package name="LGA-24_4X4MM">
-<circle x="1.75" y="1.75" radius="0.05" width="0.127" layer="51"/>
-<smd name="P$1" x="1.25" y="1.8" dx="0.3" dy="0.6" layer="1"/>
-<wire x1="-2" y1="2" x2="2" y2="2" width="0.127" layer="21"/>
-<wire x1="2" y1="2" x2="2" y2="-2" width="0.127" layer="21"/>
-<wire x1="2" y1="-2" x2="-2" y2="-2" width="0.127" layer="21"/>
-<wire x1="-2" y1="-2" x2="-2" y2="2" width="0.127" layer="21"/>
-<smd name="P$2" x="0.75" y="1.8" dx="0.3" dy="0.6" layer="1"/>
-<smd name="P$3" x="0.25" y="1.8" dx="0.3" dy="0.6" layer="1"/>
-<smd name="P$4" x="-0.25" y="1.8" dx="0.3" dy="0.6" layer="1"/>
-<smd name="P$5" x="-0.75" y="1.8" dx="0.3" dy="0.6" layer="1"/>
-<smd name="P$6" x="-1.25" y="1.8" dx="0.3" dy="0.6" layer="1"/>
-<smd name="P$7" x="-1.8" y="1.25" dx="0.3" dy="0.6" layer="1" rot="R90"/>
-<smd name="P$8" x="-1.8" y="0.75" dx="0.3" dy="0.6" layer="1" rot="R90"/>
-<smd name="P$9" x="-1.8" y="0.25" dx="0.3" dy="0.6" layer="1" rot="R90"/>
-<smd name="P$10" x="-1.8" y="-0.25" dx="0.3" dy="0.6" layer="1" rot="R90"/>
-<smd name="P$11" x="-1.8" y="-0.75" dx="0.3" dy="0.6" layer="1" rot="R90"/>
-<smd name="P$12" x="-1.8" y="-1.25" dx="0.3" dy="0.6" layer="1" rot="R90"/>
-<smd name="P$13" x="-1.25" y="-1.8" dx="0.3" dy="0.6" layer="1" rot="R180"/>
-<smd name="P$14" x="-0.75" y="-1.8" dx="0.3" dy="0.6" layer="1" rot="R180"/>
-<smd name="P$15" x="-0.25" y="-1.8" dx="0.3" dy="0.6" layer="1" rot="R180"/>
-<smd name="P$16" x="0.25" y="-1.8" dx="0.3" dy="0.6" layer="1" rot="R180"/>
-<smd name="P$17" x="0.75" y="-1.8" dx="0.3" dy="0.6" layer="1" rot="R180"/>
-<smd name="P$18" x="1.25" y="-1.8" dx="0.3" dy="0.6" layer="1" rot="R180"/>
-<smd name="P$19" x="1.8" y="-1.25" dx="0.3" dy="0.6" layer="1" rot="R270"/>
-<smd name="P$20" x="1.8" y="-0.75" dx="0.3" dy="0.6" layer="1" rot="R270"/>
-<smd name="P$21" x="1.8" y="-0.25" dx="0.3" dy="0.6" layer="1" rot="R270"/>
-<smd name="P$22" x="1.8" y="0.25" dx="0.3" dy="0.6" layer="1" rot="R270"/>
-<smd name="P$23" x="1.8" y="0.75" dx="0.3" dy="0.6" layer="1" rot="R270"/>
-<smd name="P$24" x="1.8" y="1.25" dx="0.3" dy="0.6" layer="1" rot="R270"/>
-<text x="2.95" y="0.75" size="1.27" layer="25">&gt;NAME</text>
-<wire x1="-2.35" y1="2.35" x2="2.35" y2="2.35" width="0.127" layer="39"/>
-<wire x1="2.35" y1="2.35" x2="2.35" y2="-2.35" width="0.127" layer="39"/>
-<wire x1="2.35" y1="-2.35" x2="-2.35" y2="-2.35" width="0.127" layer="39"/>
-<wire x1="-2.35" y1="-2.35" x2="-2.35" y2="2.35" width="0.127" layer="39"/>
-</package>
-</packages>
-<symbols>
-<symbol name="LSM9DS0TR">
-<pin name="P$1_RES" x="-43.18" y="12.7" length="middle"/>
-<pin name="P$2_RES" x="-43.18" y="10.16" length="middle"/>
-<pin name="P$3_RES" x="-43.18" y="7.62" length="middle"/>
-<pin name="P$4_RES" x="-43.18" y="5.08" length="middle"/>
-<pin name="P$5_GND" x="-43.18" y="2.54" length="middle"/>
-<pin name="P$6_GND" x="-43.18" y="0" length="middle"/>
-<pin name="P$7_C1_XM" x="-43.18" y="-2.54" length="middle"/>
-<pin name="P$8_SET_XM" x="-43.18" y="-5.08" length="middle"/>
-<pin name="P$9_SETP_XM" x="-43.18" y="-7.62" length="middle"/>
-<pin name="P$10_DEN_G" x="-43.18" y="-10.16" length="middle"/>
-<pin name="P$11_INT_G" x="-43.18" y="-12.7" length="middle"/>
-<pin name="P$12_DADY_G" x="-43.18" y="-15.24" length="middle"/>
-<pin name="P$13_INT1_XM" x="-43.18" y="-17.78" length="middle"/>
-<pin name="P$14_INT2_XM" x="-43.18" y="-20.32" length="middle"/>
-<pin name="P$15_VDD" x="-43.18" y="-22.86" length="middle"/>
-<pin name="P$16_VDD" x="-43.18" y="-25.4" length="middle"/>
-<pin name="P$17_VDD" x="-43.18" y="-27.94" length="middle"/>
-<pin name="P$18_VDD_IO" x="-43.18" y="-30.48" length="middle"/>
-<pin name="P$19_CS_G" x="-43.18" y="-33.02" length="middle"/>
-<pin name="P$20_CS_XM" x="-43.18" y="-35.56" length="middle"/>
-<pin name="P$21_SCL/SPC" x="-43.18" y="-38.1" length="middle"/>
-<pin name="P$22_SDO_G/SAO_G" x="-43.18" y="-40.64" length="middle"/>
-<pin name="P$23_SDO_XM/SAO_XM" x="-43.18" y="-43.18" length="middle"/>
-<pin name="P$24_SDA" x="-43.18" y="-45.72" length="middle"/>
-<wire x1="-38.1" y1="15.24" x2="-38.1" y2="-48.26" width="0.254" layer="94"/>
-<wire x1="-38.1" y1="15.24" x2="-10.16" y2="15.24" width="0.254" layer="94"/>
-<wire x1="-10.16" y1="15.24" x2="-10.16" y2="-48.26" width="0.254" layer="94"/>
-<wire x1="-10.16" y1="-48.26" x2="-38.1" y2="-48.26" width="0.254" layer="94"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="IMU">
-<gates>
-<gate name="G$1" symbol="LSM9DS0TR" x="15.24" y="20.32"/>
-</gates>
-<devices>
-<device name="" package="LGA-24_4X4MM">
-<connects>
-<connect gate="G$1" pin="P$10_DEN_G" pad="P$10"/>
-<connect gate="G$1" pin="P$11_INT_G" pad="P$11"/>
-<connect gate="G$1" pin="P$12_DADY_G" pad="P$12"/>
-<connect gate="G$1" pin="P$13_INT1_XM" pad="P$13"/>
-<connect gate="G$1" pin="P$14_INT2_XM" pad="P$14"/>
-<connect gate="G$1" pin="P$15_VDD" pad="P$15"/>
-<connect gate="G$1" pin="P$16_VDD" pad="P$16"/>
-<connect gate="G$1" pin="P$17_VDD" pad="P$17"/>
-<connect gate="G$1" pin="P$18_VDD_IO" pad="P$18"/>
-<connect gate="G$1" pin="P$19_CS_G" pad="P$19"/>
-<connect gate="G$1" pin="P$1_RES" pad="P$1"/>
-<connect gate="G$1" pin="P$20_CS_XM" pad="P$20"/>
-<connect gate="G$1" pin="P$21_SCL/SPC" pad="P$21"/>
-<connect gate="G$1" pin="P$22_SDO_G/SAO_G" pad="P$22"/>
-<connect gate="G$1" pin="P$23_SDO_XM/SAO_XM" pad="P$23"/>
-<connect gate="G$1" pin="P$24_SDA" pad="P$24"/>
-<connect gate="G$1" pin="P$2_RES" pad="P$2"/>
-<connect gate="G$1" pin="P$3_RES" pad="P$3"/>
-<connect gate="G$1" pin="P$4_RES" pad="P$4"/>
-<connect gate="G$1" pin="P$5_GND" pad="P$5"/>
-<connect gate="G$1" pin="P$6_GND" pad="P$6"/>
-<connect gate="G$1" pin="P$7_C1_XM" pad="P$7"/>
-<connect gate="G$1" pin="P$8_SET_XM" pad="P$8"/>
-<connect gate="G$1" pin="P$9_SETP_XM" pad="P$9"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="DIST" value="DIGIKEY" constant="no"/>
-<attribute name="DISTPN" value="497-13902-1-ND" constant="no"/>
-<attribute name="MFP" value="LSM9DS0TR" constant="no"/>
-<attribute name="MFR" value="STMicroelectronics" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 </libraries>
 <attributes>
 </attributes>
@@ -7776,20 +7658,6 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <part name="C2" library="quadparts_prebuilt" deviceset="CAPACITOR-NP_" device="SMD-2012-0805_CERAMIC-1UF" value="1uF"/>
 <part name="GND9" library="quadparts_prebuilt" deviceset="BAT_GND" device=""/>
 <part name="GND27" library="quadparts_prebuilt" deviceset="BAT_GND" device=""/>
-<part name="C18" library="quadparts_prebuilt" deviceset="CAPACITOR-NP_" device="SMD-2012-0805_CERAMIC-0.01UF" value="0.01uF"/>
-<part name="GND29" library="quadparts_prebuilt" deviceset="BAT_GND" device=""/>
-<part name="U$1" library="quadparts" deviceset="IMU" device=""/>
-<part name="P+10" library="quadparts_prebuilt" deviceset="VCC" device=""/>
-<part name="C19" library="quadparts_prebuilt" deviceset="CAPACITOR-NP_" device="SMD-2012-0805_CERAMIC-0.1UF" value="0.1uF"/>
-<part name="C20" library="quadparts_prebuilt" deviceset="CAPACITOR-NP_" device="SMD-2012-0805_CERAMIC-10UF" value="10uF"/>
-<part name="GND32" library="quadparts_prebuilt" deviceset="BAT_GND" device=""/>
-<part name="GND33" library="quadparts_prebuilt" deviceset="BAT_GND" device=""/>
-<part name="GND34" library="quadparts_prebuilt" deviceset="BAT_GND" device=""/>
-<part name="C21" library="quadparts_prebuilt" deviceset="CAPACITOR-NP_" device="SMD-2012-0805_CERAMIC-4.7UF" value="4.7uF"/>
-<part name="C22" library="quadparts_prebuilt" deviceset="CAPACITOR-NP_" device="SMD-2012-0805_CERAMIC-0.22UF" value="0.22uF"/>
-<part name="R1" library="quadparts_prebuilt" deviceset="RESISTOR_" device="SMD-2012-0805-10K" value="10K"/>
-<part name="R6" library="quadparts_prebuilt" deviceset="RESISTOR_" device="SMD-2012-0805-10K" value="10K"/>
-<part name="GND35" library="quadparts_prebuilt" deviceset="BAT_GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -7872,7 +7740,7 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <instance part="A1" gate="G$1" x="160.02" y="101.6"/>
 <instance part="FID1" gate="G$1" x="241.3" y="33.02"/>
 <instance part="FID2" gate="G$1" x="241.3" y="27.94"/>
-<instance part="BATT1" gate="G$1" x="-12.7" y="228.6" rot="R270"/>
+<instance part="BATT1" gate="G$1" x="-66.04" y="165.1"/>
 <instance part="GND8" gate="1" x="12.7" y="223.52"/>
 <instance part="C7" gate="G$1" x="58.42" y="116.84"/>
 <instance part="C8" gate="G$1" x="66.04" y="116.84"/>
@@ -7893,20 +7761,6 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <instance part="C2" gate="G$1" x="76.2" y="236.22"/>
 <instance part="GND9" gate="1" x="25.4" y="233.68"/>
 <instance part="GND27" gate="1" x="76.2" y="223.52"/>
-<instance part="C18" gate="G$1" x="63.5" y="220.98"/>
-<instance part="GND29" gate="1" x="63.5" y="210.82"/>
-<instance part="U$1" gate="G$1" x="210.82" y="256.54"/>
-<instance part="P+10" gate="VCC" x="116.84" y="236.22"/>
-<instance part="C19" gate="G$1" x="116.84" y="226.06"/>
-<instance part="C20" gate="G$1" x="124.46" y="226.06"/>
-<instance part="GND32" gate="1" x="116.84" y="213.36"/>
-<instance part="GND33" gate="1" x="-12.7" y="218.44"/>
-<instance part="GND34" gate="1" x="132.08" y="256.54"/>
-<instance part="C21" gate="G$1" x="144.78" y="254" rot="R90"/>
-<instance part="C22" gate="G$1" x="149.86" y="248.92"/>
-<instance part="R1" gate="G$1" x="137.16" y="226.06"/>
-<instance part="R6" gate="G$1" x="137.16" y="218.44"/>
-<instance part="GND35" gate="1" x="144.78" y="208.28"/>
 </instances>
 <busses>
 </busses>
@@ -8695,40 +8549,6 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <wire x1="76.2" y1="241.3" x2="60.96" y2="241.3" width="0.1524" layer="91"/>
 <junction x="76.2" y="241.3"/>
 </segment>
-<segment>
-<pinref part="P+10" gate="VCC" pin="VCC"/>
-<wire x1="116.84" y1="233.68" x2="116.84" y2="231.14" width="0.1524" layer="91"/>
-<pinref part="U$1" gate="G$1" pin="P$16_VDD"/>
-<wire x1="116.84" y1="231.14" x2="124.46" y2="231.14" width="0.1524" layer="91"/>
-<pinref part="U$1" gate="G$1" pin="P$15_VDD"/>
-<wire x1="124.46" y1="231.14" x2="129.54" y2="231.14" width="0.1524" layer="91"/>
-<wire x1="129.54" y1="231.14" x2="132.08" y2="231.14" width="0.1524" layer="91"/>
-<wire x1="132.08" y1="231.14" x2="160.02" y2="231.14" width="0.1524" layer="91"/>
-<wire x1="160.02" y1="231.14" x2="167.64" y2="231.14" width="0.1524" layer="91"/>
-<wire x1="167.64" y1="233.68" x2="160.02" y2="233.68" width="0.1524" layer="91"/>
-<wire x1="160.02" y1="233.68" x2="160.02" y2="231.14" width="0.1524" layer="91"/>
-<wire x1="160.02" y1="231.14" x2="160.02" y2="228.6" width="0.1524" layer="91"/>
-<pinref part="U$1" gate="G$1" pin="P$17_VDD"/>
-<wire x1="160.02" y1="228.6" x2="167.64" y2="228.6" width="0.1524" layer="91"/>
-<pinref part="C19" gate="G$1" pin="1"/>
-<wire x1="116.84" y1="231.14" x2="116.84" y2="228.6" width="0.1524" layer="91"/>
-<pinref part="C20" gate="G$1" pin="1"/>
-<wire x1="124.46" y1="231.14" x2="124.46" y2="228.6" width="0.1524" layer="91"/>
-<junction x="116.84" y="231.14"/>
-<junction x="124.46" y="231.14"/>
-<wire x1="160.02" y1="228.6" x2="160.02" y2="226.06" width="0.1524" layer="91"/>
-<pinref part="U$1" gate="G$1" pin="P$18_VDD_IO"/>
-<wire x1="160.02" y1="226.06" x2="167.64" y2="226.06" width="0.1524" layer="91"/>
-<junction x="160.02" y="231.14"/>
-<junction x="160.02" y="228.6"/>
-<pinref part="R6" gate="G$1" pin="1"/>
-<wire x1="132.08" y1="218.44" x2="129.54" y2="218.44" width="0.1524" layer="91"/>
-<wire x1="129.54" y1="218.44" x2="129.54" y2="231.14" width="0.1524" layer="91"/>
-<pinref part="R1" gate="G$1" pin="1"/>
-<wire x1="132.08" y1="226.06" x2="132.08" y2="231.14" width="0.1524" layer="91"/>
-<junction x="129.54" y="231.14"/>
-<junction x="132.08" y="231.14"/>
-</segment>
 </net>
 <net name="DTR" class="0">
 <segment>
@@ -8819,15 +8639,13 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <pinref part="C1" gate="G$1" pin="1"/>
 <wire x1="38.1" y1="241.3" x2="17.78" y2="241.3" width="0.1524" layer="91"/>
 <wire x1="17.78" y1="241.3" x2="12.7" y2="241.3" width="0.1524" layer="91"/>
-<wire x1="12.7" y1="241.3" x2="-12.7" y2="241.3" width="0.1524" layer="91"/>
+<wire x1="12.7" y1="241.3" x2="10.16" y2="241.3" width="0.1524" layer="91"/>
 <wire x1="17.78" y1="241.3" x2="17.78" y2="226.06" width="0.1524" layer="91"/>
 <pinref part="U$2" gate="G$1" pin="EN"/>
 <wire x1="17.78" y1="226.06" x2="38.1" y2="226.06" width="0.1524" layer="91"/>
 <wire x1="38.1" y1="226.06" x2="38.1" y2="231.14" width="0.1524" layer="91"/>
 <junction x="17.78" y="241.3"/>
 <junction x="12.7" y="241.3"/>
-<pinref part="BATT1" gate="G$1" pin="P"/>
-<wire x1="-12.7" y1="236.22" x2="-12.7" y2="241.3" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="BAT_GND" class="0">
@@ -8845,108 +8663,6 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <pinref part="C2" gate="G$1" pin="2"/>
 <wire x1="76.2" y1="231.14" x2="76.2" y2="226.06" width="0.1524" layer="91"/>
 <pinref part="GND27" gate="1" pin="BAT_GND"/>
-</segment>
-<segment>
-<pinref part="C18" gate="G$1" pin="2"/>
-<pinref part="GND29" gate="1" pin="BAT_GND"/>
-<wire x1="63.5" y1="215.9" x2="63.5" y2="213.36" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="C19" gate="G$1" pin="2"/>
-<pinref part="GND32" gate="1" pin="BAT_GND"/>
-<wire x1="116.84" y1="220.98" x2="116.84" y2="218.44" width="0.1524" layer="91"/>
-<pinref part="C20" gate="G$1" pin="2"/>
-<wire x1="116.84" y1="218.44" x2="116.84" y2="215.9" width="0.1524" layer="91"/>
-<wire x1="116.84" y1="218.44" x2="124.46" y2="218.44" width="0.1524" layer="91"/>
-<wire x1="124.46" y1="218.44" x2="124.46" y2="220.98" width="0.1524" layer="91"/>
-<junction x="116.84" y="218.44"/>
-</segment>
-<segment>
-<pinref part="BATT1" gate="G$1" pin="N"/>
-<pinref part="GND33" gate="1" pin="BAT_GND"/>
-<wire x1="-12.7" y1="223.52" x2="-12.7" y2="220.98" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="U$1" gate="G$1" pin="P$5_GND"/>
-<pinref part="GND34" gate="1" pin="BAT_GND"/>
-<wire x1="167.64" y1="259.08" x2="160.02" y2="259.08" width="0.1524" layer="91"/>
-<wire x1="160.02" y1="259.08" x2="142.24" y2="259.08" width="0.1524" layer="91"/>
-<pinref part="U$1" gate="G$1" pin="P$6_GND"/>
-<wire x1="142.24" y1="259.08" x2="132.08" y2="259.08" width="0.1524" layer="91"/>
-<wire x1="167.64" y1="256.54" x2="160.02" y2="256.54" width="0.1524" layer="91"/>
-<wire x1="160.02" y1="256.54" x2="160.02" y2="259.08" width="0.1524" layer="91"/>
-<wire x1="160.02" y1="259.08" x2="160.02" y2="261.62" width="0.1524" layer="91"/>
-<pinref part="U$1" gate="G$1" pin="P$2_RES"/>
-<wire x1="160.02" y1="261.62" x2="160.02" y2="264.16" width="0.1524" layer="91"/>
-<wire x1="160.02" y1="264.16" x2="160.02" y2="266.7" width="0.1524" layer="91"/>
-<wire x1="167.64" y1="266.7" x2="160.02" y2="266.7" width="0.1524" layer="91"/>
-<pinref part="U$1" gate="G$1" pin="P$3_RES"/>
-<wire x1="167.64" y1="264.16" x2="160.02" y2="264.16" width="0.1524" layer="91"/>
-<pinref part="U$1" gate="G$1" pin="P$4_RES"/>
-<wire x1="167.64" y1="261.62" x2="160.02" y2="261.62" width="0.1524" layer="91"/>
-<junction x="160.02" y="261.62"/>
-<junction x="160.02" y="259.08"/>
-<junction x="160.02" y="264.16"/>
-<pinref part="C21" gate="G$1" pin="1"/>
-<wire x1="142.24" y1="254" x2="142.24" y2="259.08" width="0.1524" layer="91"/>
-<junction x="142.24" y="259.08"/>
-</segment>
-<segment>
-<pinref part="U$1" gate="G$1" pin="P$22_SDO_G/SAO_G"/>
-<wire x1="144.78" y1="215.9" x2="167.64" y2="215.9" width="0.1524" layer="91"/>
-<pinref part="GND35" gate="1" pin="BAT_GND"/>
-<wire x1="144.78" y1="215.9" x2="144.78" y2="213.36" width="0.1524" layer="91"/>
-<pinref part="U$1" gate="G$1" pin="P$23_SDO_XM/SAO_XM"/>
-<wire x1="144.78" y1="213.36" x2="144.78" y2="210.82" width="0.1524" layer="91"/>
-<wire x1="167.64" y1="213.36" x2="144.78" y2="213.36" width="0.1524" layer="91"/>
-<junction x="144.78" y="213.36"/>
-</segment>
-</net>
-<net name="N$5" class="0">
-<segment>
-<pinref part="C18" gate="G$1" pin="1"/>
-<wire x1="63.5" y1="223.52" x2="63.5" y2="231.14" width="0.1524" layer="91"/>
-<pinref part="U$2" gate="G$1" pin="NC/FB"/>
-<wire x1="63.5" y1="231.14" x2="60.96" y2="231.14" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$6" class="0">
-<segment>
-<pinref part="U$1" gate="G$1" pin="P$7_C1_XM"/>
-<pinref part="C21" gate="G$1" pin="2"/>
-<wire x1="167.64" y1="254" x2="149.86" y2="254" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$12" class="0">
-<segment>
-<pinref part="C22" gate="G$1" pin="1"/>
-<pinref part="U$1" gate="G$1" pin="P$8_SET_XM"/>
-<wire x1="149.86" y1="251.46" x2="167.64" y2="251.46" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$14" class="0">
-<segment>
-<pinref part="C22" gate="G$1" pin="2"/>
-<wire x1="149.86" y1="243.84" x2="154.94" y2="243.84" width="0.1524" layer="91"/>
-<wire x1="154.94" y1="243.84" x2="154.94" y2="248.92" width="0.1524" layer="91"/>
-<pinref part="U$1" gate="G$1" pin="P$9_SETP_XM"/>
-<wire x1="154.94" y1="248.92" x2="167.64" y2="248.92" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$15" class="0">
-<segment>
-<pinref part="R1" gate="G$1" pin="2"/>
-<wire x1="142.24" y1="226.06" x2="142.24" y2="223.52" width="0.1524" layer="91"/>
-<pinref part="U$1" gate="G$1" pin="P$19_CS_G"/>
-<wire x1="142.24" y1="223.52" x2="167.64" y2="223.52" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$16" class="0">
-<segment>
-<pinref part="U$1" gate="G$1" pin="P$20_CS_XM"/>
-<wire x1="167.64" y1="220.98" x2="142.24" y2="220.98" width="0.1524" layer="91"/>
-<wire x1="142.24" y1="220.98" x2="142.24" y2="218.44" width="0.1524" layer="91"/>
-<pinref part="R6" gate="G$1" pin="2"/>
 </segment>
 </net>
 </nets>

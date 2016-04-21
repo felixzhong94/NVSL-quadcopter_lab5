@@ -91,7 +91,6 @@
 <layer number="112" name="tSilk" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="113" name="IDFDebug" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="114" name="Unresolved" color="12" fill="1" visible="yes" active="yes"/>
-<layer number="115" name="Resolved" color="10" fill="1" visible="yes" active="yes"/>
 <layer number="116" name="Patch_BOT" color="9" fill="4" visible="yes" active="yes"/>
 <layer number="118" name="Rect_Pads" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="121" name="_tsilk" color="7" fill="1" visible="yes" active="yes"/>
@@ -630,6 +629,43 @@ We've spent an enormous amount of time creating and checking these footprints an
 &lt;br&gt;&lt;br&gt;
 &lt;b&gt;Licensing:&lt;/b&gt; CC v3.0 Share-Alike You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
 <packages>
+<package name="OSHW-LOGO-S">
+<polygon width="0.15" layer="21">
+<vertex x="0.3947" y="-0.9528" curve="9.498218"/>
+<vertex x="0.5465" y="-0.8746"/>
+<vertex x="0.9235" y="-1.182"/>
+<vertex x="1.182" y="-0.9235"/>
+<vertex x="0.8746" y="-0.5465" curve="19.000773"/>
+<vertex x="1.0049" y="-0.232"/>
+<vertex x="1.4888" y="-0.1828"/>
+<vertex x="1.4888" y="0.1828"/>
+<vertex x="1.0049" y="0.232" curve="19.000773"/>
+<vertex x="0.8746" y="0.5465"/>
+<vertex x="1.182" y="0.9235"/>
+<vertex x="0.9235" y="1.182"/>
+<vertex x="0.5465" y="0.8746" curve="19.000773"/>
+<vertex x="0.232" y="1.0049"/>
+<vertex x="0.1828" y="1.4888"/>
+<vertex x="-0.1828" y="1.4888"/>
+<vertex x="-0.232" y="1.0049" curve="19.000773"/>
+<vertex x="-0.5465" y="0.8746"/>
+<vertex x="-0.9235" y="1.182"/>
+<vertex x="-1.182" y="0.9235"/>
+<vertex x="-0.8746" y="0.5465" curve="19.000773"/>
+<vertex x="-1.0049" y="0.232"/>
+<vertex x="-1.4888" y="0.1828"/>
+<vertex x="-1.4888" y="-0.1828"/>
+<vertex x="-1.0049" y="-0.232" curve="19.000773"/>
+<vertex x="-0.8746" y="-0.5465"/>
+<vertex x="-1.182" y="-0.9235"/>
+<vertex x="-0.9235" y="-1.182"/>
+<vertex x="-0.5465" y="-0.8746" curve="9.498218"/>
+<vertex x="-0.3947" y="-0.9528"/>
+<vertex x="-0.1794" y="-0.4331" curve="-67.514699"/>
+<vertex x="-0.4688" y="0" curve="-247.473915"/>
+<vertex x="0.1794" y="-0.4331"/>
+</polygon>
+</package>
 <package name="SFE-NEW-WEBLOGO">
 <wire x1="10.7163" y1="0.9449" x2="10.7163" y2="2.5171" width="0.0254" layer="21"/>
 <wire x1="10.7163" y1="2.5171" x2="11.1201" y2="2.5171" width="0.0254" layer="21"/>
@@ -2177,46 +2213,6 @@ chip</description>
 </package>
 </packages>
 </library>
-<library name="quadparts">
-<packages>
-<package name="LGA-24_4X4MM">
-<circle x="1.75" y="1.75" radius="0.05" width="0.127" layer="51"/>
-<smd name="P$1" x="1.25" y="1.8" dx="0.3" dy="0.6" layer="1"/>
-<wire x1="-2" y1="2" x2="2" y2="2" width="0.127" layer="21"/>
-<wire x1="2" y1="2" x2="2" y2="-2" width="0.127" layer="21"/>
-<wire x1="2" y1="-2" x2="-2" y2="-2" width="0.127" layer="21"/>
-<wire x1="-2" y1="-2" x2="-2" y2="2" width="0.127" layer="21"/>
-<smd name="P$2" x="0.75" y="1.8" dx="0.3" dy="0.6" layer="1"/>
-<smd name="P$3" x="0.25" y="1.8" dx="0.3" dy="0.6" layer="1"/>
-<smd name="P$4" x="-0.25" y="1.8" dx="0.3" dy="0.6" layer="1"/>
-<smd name="P$5" x="-0.75" y="1.8" dx="0.3" dy="0.6" layer="1"/>
-<smd name="P$6" x="-1.25" y="1.8" dx="0.3" dy="0.6" layer="1"/>
-<smd name="P$7" x="-1.8" y="1.25" dx="0.3" dy="0.6" layer="1" rot="R90"/>
-<smd name="P$8" x="-1.8" y="0.75" dx="0.3" dy="0.6" layer="1" rot="R90"/>
-<smd name="P$9" x="-1.8" y="0.25" dx="0.3" dy="0.6" layer="1" rot="R90"/>
-<smd name="P$10" x="-1.8" y="-0.25" dx="0.3" dy="0.6" layer="1" rot="R90"/>
-<smd name="P$11" x="-1.8" y="-0.75" dx="0.3" dy="0.6" layer="1" rot="R90"/>
-<smd name="P$12" x="-1.8" y="-1.25" dx="0.3" dy="0.6" layer="1" rot="R90"/>
-<smd name="P$13" x="-1.25" y="-1.8" dx="0.3" dy="0.6" layer="1" rot="R180"/>
-<smd name="P$14" x="-0.75" y="-1.8" dx="0.3" dy="0.6" layer="1" rot="R180"/>
-<smd name="P$15" x="-0.25" y="-1.8" dx="0.3" dy="0.6" layer="1" rot="R180"/>
-<smd name="P$16" x="0.25" y="-1.8" dx="0.3" dy="0.6" layer="1" rot="R180"/>
-<smd name="P$17" x="0.75" y="-1.8" dx="0.3" dy="0.6" layer="1" rot="R180"/>
-<smd name="P$18" x="1.25" y="-1.8" dx="0.3" dy="0.6" layer="1" rot="R180"/>
-<smd name="P$19" x="1.8" y="-1.25" dx="0.3" dy="0.6" layer="1" rot="R270"/>
-<smd name="P$20" x="1.8" y="-0.75" dx="0.3" dy="0.6" layer="1" rot="R270"/>
-<smd name="P$21" x="1.8" y="-0.25" dx="0.3" dy="0.6" layer="1" rot="R270"/>
-<smd name="P$22" x="1.8" y="0.25" dx="0.3" dy="0.6" layer="1" rot="R270"/>
-<smd name="P$23" x="1.8" y="0.75" dx="0.3" dy="0.6" layer="1" rot="R270"/>
-<smd name="P$24" x="1.8" y="1.25" dx="0.3" dy="0.6" layer="1" rot="R270"/>
-<text x="2.95" y="0.75" size="1.27" layer="25">&gt;NAME</text>
-<wire x1="-2.35" y1="2.35" x2="2.35" y2="2.35" width="0.127" layer="39"/>
-<wire x1="2.35" y1="2.35" x2="2.35" y2="-2.35" width="0.127" layer="39"/>
-<wire x1="2.35" y1="-2.35" x2="-2.35" y2="-2.35" width="0.127" layer="39"/>
-<wire x1="-2.35" y1="-2.35" x2="-2.35" y2="2.35" width="0.127" layer="39"/>
-</package>
-</packages>
-</library>
 </libraries>
 <attributes>
 </attributes>
@@ -2403,6 +2399,7 @@ design rules under a new name.</description>
 <element name="B1" library="SparkFun-RF" package="BALUN" value="748421245" x="45.72" y="19.05" rot="R180"/>
 <element name="C11" library="SparkFun-Passives" package="0402-CAP" value="22pF" x="45.72" y="21.59" rot="R90"/>
 <element name="J1" library="SparkFun-Connectors" package="2X3-NS" value="ISP" x="53.34" y="27.94" rot="R270"/>
+<element name="U$1" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="39.878" y="44.45"/>
 <element name="J2" library="SparkFun-Boards" package="ARDUINO_UNO_R3" value="ARDUINO_UNO_R3" x="-11.43" y="0"/>
 <element name="S1" library="SparkFun-Electromechanical" package="TACTILE_SWITCH_SMD" value="" x="46.99" y="38.1" rot="R180"/>
 <element name="C12" library="SparkFun-Passives" package="0402-CAP" value="1uF" x="12.7" y="16.51" rot="R180"/>
@@ -2532,42 +2529,6 @@ design rules under a new name.</description>
 <attribute name="MFR" value="Murata Electronics North America" x="-16.002" y="-77.978" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="GRM21BR71H105KA12L" x="-16.002" y="-77.978" size="1.778" layer="27" display="off"/>
 <attribute name="DISTPN" value="490-4736-1-ND" x="-16.002" y="-77.978" size="1.778" layer="27" display="off"/>
-</element>
-<element name="C18" library="quadparts_prebuilt" package="CAPC2012X140_HS" value="0.01uF" x="-16.002" y="-80.772">
-<attribute name="DIST" value="Digikey" x="-16.002" y="-80.772" size="1.778" layer="27" display="off"/>
-<attribute name="MFR" value="Murata Electronics North America" x="-16.002" y="-80.772" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="GRM2195C1H103FA01D" x="-16.002" y="-80.772" size="1.778" layer="27" display="off"/>
-<attribute name="DISTPN" value="490-8295-1-ND" x="-16.002" y="-80.772" size="1.778" layer="27" display="off"/>
-</element>
-<element name="U$1" library="quadparts" package="LGA-24_4X4MM" value="IMU" x="-15.24" y="-84.328">
-<attribute name="DIST" value="DIGIKEY" x="-15.24" y="-84.328" size="1.778" layer="27" display="off"/>
-<attribute name="MFP" value="LSM9DS0TR" x="-15.24" y="-84.328" size="1.778" layer="27" display="off"/>
-<attribute name="MFR" value="STMicroelectronics" x="-15.24" y="-84.328" size="1.778" layer="27" display="off"/>
-<attribute name="DISTPN" value="497-13902-1-ND" x="-15.24" y="-84.328" size="1.778" layer="27" display="off"/>
-</element>
-<element name="C19" library="quadparts_prebuilt" package="CAPC2012X140_HS" value="0.1uF" x="-16.002" y="-88.392">
-<attribute name="DIST" value="Digikey" x="-16.002" y="-88.392" size="1.778" layer="27" display="off"/>
-<attribute name="MFR" value="Murata Electronics North America" x="-16.002" y="-88.392" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="GRM21BR71H104KA01L" x="-16.002" y="-88.392" size="1.778" layer="27" display="off"/>
-<attribute name="DISTPN" value="490-1666-1-ND" x="-16.002" y="-88.392" size="1.778" layer="27" display="off"/>
-</element>
-<element name="C20" library="quadparts_prebuilt" package="CAPC2012X140_HS" value="10uF" x="-16.002" y="-91.186">
-<attribute name="DIST" value="Digikey" x="-16.002" y="-91.186" size="1.778" layer="27" display="off"/>
-<attribute name="MFR" value="Murata Electronics North America" x="-16.002" y="-91.186" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="GRM21BR61E106KA73L" x="-16.002" y="-91.186" size="1.778" layer="27" display="off"/>
-<attribute name="DISTPN" value="490-5523-1-ND" x="-16.002" y="-91.186" size="1.778" layer="27" display="off"/>
-</element>
-<element name="C21" library="quadparts_prebuilt" package="CAPC2012X140_HS" value="4.7uF" x="-16.002" y="-93.98">
-<attribute name="DIST" value="Digikey" x="-16.002" y="-93.98" size="1.778" layer="27" display="off"/>
-<attribute name="MFR" value="Murata Electronics North America" x="-16.002" y="-93.98" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="GRM21BR61E475KA12L" x="-16.002" y="-93.98" size="1.778" layer="27" display="off"/>
-<attribute name="DISTPN" value="490-3335-1-ND" x="-16.002" y="-93.98" size="1.778" layer="27" display="off"/>
-</element>
-<element name="C22" library="quadparts_prebuilt" package="CAPC2012X140_HS" value="0.22uF" x="-16.002" y="-96.774">
-<attribute name="DIST" value="Digikey" x="-16.002" y="-96.774" size="1.778" layer="27" display="off"/>
-<attribute name="MFR" value="Murata Electronics North America" x="-16.002" y="-96.774" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="GRM21BR71H224KA01L" x="-16.002" y="-96.774" size="1.778" layer="27" display="off"/>
-<attribute name="DISTPN" value="490-1670-1-ND" x="-16.002" y="-96.774" size="1.778" layer="27" display="off"/>
 </element>
 </elements>
 <signals>
@@ -3442,16 +3403,6 @@ design rules under a new name.</description>
 <wire x1="12.7" y1="5.08" x2="15.24" y2="5.08" width="0.508" layer="1"/>
 <contactref element="C2" pad="1"/>
 <contactref element="U$2" pad="5"/>
-<contactref element="U$1" pad="P$16"/>
-<contactref element="U$1" pad="P$15"/>
-<contactref element="U$1" pad="P$17"/>
-<contactref element="C19" pad="1"/>
-<contactref element="C20" pad="1"/>
-<wire x1="-16.897" y1="-88.392" x2="-16.897" y2="-91.186" width="0" layer="19" extent="1-1"/>
-<wire x1="-15.49" y1="-86.128" x2="-16.897" y2="-88.392" width="0" layer="19" extent="1-1"/>
-<wire x1="-14.99" y1="-86.128" x2="-15.49" y2="-86.128" width="0" layer="19" extent="1-1"/>
-<wire x1="-14.49" y1="-86.128" x2="-14.99" y2="-86.128" width="0" layer="19" extent="1-1"/>
-<wire x1="-16.897" y1="-77.978" x2="-15.49" y2="-86.128" width="0" layer="19" extent="1-1"/>
 <wire x1="-16.444" y1="-68.296" x2="-16.897" y2="-77.978" width="0" layer="19" extent="1-1"/>
 <wire x1="12.029" y1="3.528" x2="-16.444" y2="-68.296" width="0" layer="19" extent="1-1"/>
 </signal>
@@ -3528,58 +3479,14 @@ design rules under a new name.</description>
 <signal name="N$1">
 <contactref element="U$2" pad="1"/>
 <contactref element="C1" pad="1"/>
-<contactref element="U$2" pad="3"/>
-<contactref element="BATT1" pad="+"/>
 <wire x1="-16.444" y1="-70.896" x2="-16.897" y2="-75.184" width="0" layer="19" extent="1-1"/>
-<wire x1="-14.544" y1="-70.896" x2="-16.444" y2="-70.896" width="0" layer="19" extent="1-1"/>
-<wire x1="38.862" y1="-4.953" x2="-14.544" y2="-70.896" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="BAT_GND">
 <contactref element="C1" pad="2"/>
 <contactref element="U$2" pad="2"/>
 <contactref element="C2" pad="2"/>
-<contactref element="C18" pad="2"/>
-<contactref element="C19" pad="2"/>
-<contactref element="C20" pad="2"/>
-<contactref element="BATT1" pad="-"/>
-<contactref element="U$1" pad="P$5"/>
-<contactref element="U$1" pad="P$6"/>
-<contactref element="U$1" pad="P$2"/>
-<contactref element="U$1" pad="P$3"/>
-<contactref element="U$1" pad="P$4"/>
-<contactref element="C21" pad="1"/>
-<wire x1="-15.107" y1="-91.186" x2="-16.897" y2="-93.98" width="0" layer="19" extent="1-1"/>
-<wire x1="-15.107" y1="-88.392" x2="-15.107" y2="-91.186" width="0" layer="19" extent="1-1"/>
-<wire x1="-15.49" y1="-82.528" x2="-15.107" y2="-88.392" width="0" layer="19" extent="1-1"/>
-<wire x1="-15.99" y1="-82.528" x2="-15.49" y2="-82.528" width="0" layer="19" extent="1-1"/>
-<wire x1="-16.49" y1="-82.528" x2="-15.99" y2="-82.528" width="0" layer="19" extent="1-1"/>
-<wire x1="-14.99" y1="-82.528" x2="-15.49" y2="-82.528" width="0" layer="19" extent="1-1"/>
-<wire x1="-14.49" y1="-82.528" x2="-14.99" y2="-82.528" width="0" layer="19" extent="1-1"/>
-<wire x1="-15.107" y1="-80.772" x2="-14.99" y2="-82.528" width="0" layer="19" extent="1-1"/>
-<wire x1="-15.107" y1="-77.978" x2="-15.107" y2="-80.772" width="0" layer="19" extent="1-1"/>
 <wire x1="-15.107" y1="-75.184" x2="-15.107" y2="-77.978" width="0" layer="19" extent="1-1"/>
 <wire x1="-15.494" y1="-70.896" x2="-15.107" y2="-75.184" width="0" layer="19" extent="1-1"/>
-<wire x1="41.402" y1="-4.953" x2="-15.494" y2="-70.896" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="N$5">
-<contactref element="C18" pad="1"/>
-<contactref element="U$2" pad="4"/>
-<wire x1="-14.544" y1="-68.296" x2="-16.897" y2="-80.772" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="N$6">
-<contactref element="U$1" pad="P$7"/>
-<contactref element="C21" pad="2"/>
-<wire x1="-17.04" y1="-83.078" x2="-15.107" y2="-93.98" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="N$12">
-<contactref element="C22" pad="1"/>
-<contactref element="U$1" pad="P$8"/>
-<wire x1="-17.04" y1="-83.578" x2="-16.897" y2="-96.774" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="N$14">
-<contactref element="C22" pad="2"/>
-<contactref element="U$1" pad="P$9"/>
-<wire x1="-17.04" y1="-84.078" x2="-15.107" y2="-96.774" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 </board>
