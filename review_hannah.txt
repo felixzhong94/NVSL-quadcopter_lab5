@@ -1,0 +1,7 @@
+Notes for library:
+- Library parts don't have the CREATOR attribute.
+- Apparently you're supposed to have at least 1mm of the pad outside of the part for soldering, which we don't have either...
+- Some of your tDocu lines go over your pads, like in the IMu where the gray lines are on the pads. Same for the LED, mosfet, resistor
+
+Notes for schematic:
+- There are two random capacitors floating near the microcontroller
