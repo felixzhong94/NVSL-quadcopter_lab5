@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="99" name="SpiceOrder" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="100" name="tFaceplateCover" color="11" fill="1" visible="yes" active="yes"/>
@@ -536,6 +536,32 @@
 <text x="3.81" y="0" size="1.27" layer="25">&gt;NAME</text>
 <text x="3.81" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
 </package>
+<package name="QBLP679E-RGB">
+<smd name="P$1" x="2.2" y="-1.8" dx="2" dy="1.4" layer="1"/>
+<smd name="P$2" x="2.2" y="0" dx="2" dy="1" layer="1"/>
+<smd name="P$3" x="2.2" y="1.8" dx="2" dy="1.4" layer="1"/>
+<smd name="P$4" x="-2.2" y="1.8" dx="2" dy="1.4" layer="1"/>
+<smd name="P$5" x="-2.2" y="0" dx="2" dy="1" layer="1"/>
+<smd name="P$6" x="-2.2" y="-1.8" dx="2" dy="1.4" layer="1"/>
+<wire x1="-2.5" y1="2.5" x2="2.5" y2="2.5" width="0.127" layer="51"/>
+<wire x1="2.5" y1="2.5" x2="2.5" y2="-1.6" width="0.127" layer="51"/>
+<wire x1="2.5" y1="-1.6" x2="2.5" y2="-2.5" width="0.127" layer="51"/>
+<wire x1="2.5" y1="-2.5" x2="1.6" y2="-2.5" width="0.127" layer="51"/>
+<wire x1="1.6" y1="-2.5" x2="-2.5" y2="-2.5" width="0.127" layer="51"/>
+<wire x1="-2.5" y1="-2.5" x2="-2.5" y2="2.5" width="0.127" layer="51"/>
+<wire x1="2.5" y1="-1.6" x2="1.6" y2="-2.5" width="0.127" layer="51"/>
+<wire x1="-3.5" y1="2.8" x2="-3.5" y2="-3.3" width="0.127" layer="39"/>
+<wire x1="-3.4" y1="-3.3" x2="3.5" y2="-3.3" width="0.127" layer="39"/>
+<wire x1="3.5" y1="-3.3" x2="3.5" y2="2.8" width="0.127" layer="39"/>
+<wire x1="-3.5" y1="2.8" x2="3.5" y2="2.8" width="0.127" layer="39"/>
+<wire x1="-0.9" y1="2.6" x2="0.9" y2="2.6" width="0.127" layer="21"/>
+<wire x1="-0.9" y1="-2.6" x2="0.9" y2="-2.6" width="0.127" layer="21"/>
+<polygon width="0.127" layer="21">
+<vertex x="3.3" y="-2.7"/>
+<vertex x="3.3" y="-3.3"/>
+<vertex x="2.7" y="-3.3"/>
+</polygon>
+</package>
 </packages>
 <symbols>
 <symbol name="CERAMIC_CAP">
@@ -664,6 +690,58 @@
 <pin name="2" x="0" y="-5.08" visible="off" length="short" direction="pas" swaplevel="1" rot="R90"/>
 <wire x1="-6.35" y1="2.54" x2="-3.81" y2="2.54" width="0.254" layer="94"/>
 <wire x1="-5.08" y1="3.81" x2="-5.08" y2="1.27" width="0.254" layer="94"/>
+</symbol>
+<symbol name="RGB_LED">
+<wire x1="0" y1="2.54" x2="0" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="-2.54" x2="5.08" y2="0" width="0.254" layer="94"/>
+<wire x1="5.08" y1="0" x2="0" y2="2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="12.7" x2="0" y2="7.62" width="0.254" layer="94"/>
+<wire x1="0" y1="7.62" x2="5.08" y2="10.16" width="0.254" layer="94"/>
+<wire x1="5.08" y1="10.16" x2="0" y2="12.7" width="0.254" layer="94"/>
+<wire x1="0" y1="-7.62" x2="0" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="0" y1="-12.7" x2="5.08" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-10.16" x2="0" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-7.62" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-5.08" x2="3.81" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-5.08" x2="5.08" y2="-6.35" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-7.62" x2="7.62" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-5.08" x2="6.35" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-5.08" x2="7.62" y2="-6.35" width="0.254" layer="94"/>
+<wire x1="2.54" y1="2.54" x2="5.08" y2="5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="5.08" x2="3.81" y2="5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="5.08" x2="5.08" y2="3.81" width="0.254" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="7.62" y2="5.08" width="0.254" layer="94"/>
+<wire x1="7.62" y1="5.08" x2="6.35" y2="5.08" width="0.254" layer="94"/>
+<wire x1="7.62" y1="5.08" x2="7.62" y2="3.81" width="0.254" layer="94"/>
+<wire x1="2.54" y1="12.7" x2="5.08" y2="15.24" width="0.254" layer="94"/>
+<wire x1="5.08" y1="15.24" x2="3.81" y2="15.24" width="0.254" layer="94"/>
+<wire x1="5.08" y1="15.24" x2="5.08" y2="13.97" width="0.254" layer="94"/>
+<wire x1="5.08" y1="12.7" x2="7.62" y2="15.24" width="0.254" layer="94"/>
+<wire x1="7.62" y1="15.24" x2="6.35" y2="15.24" width="0.254" layer="94"/>
+<wire x1="7.62" y1="15.24" x2="7.62" y2="13.97" width="0.254" layer="94"/>
+<wire x1="8.89" y1="15.24" x2="8.89" y2="13.97" width="0.254" layer="94"/>
+<wire x1="8.89" y1="13.97" x2="8.89" y2="12.7" width="0.254" layer="94"/>
+<wire x1="10.16" y1="15.24" x2="8.89" y2="13.97" width="0.254" layer="94"/>
+<wire x1="10.16" y1="5.08" x2="8.89" y2="5.08" width="0.254" layer="94"/>
+<wire x1="8.89" y1="5.08" x2="8.89" y2="3.81" width="0.254" layer="94"/>
+<wire x1="8.89" y1="3.81" x2="10.16" y2="3.81" width="0.254" layer="94"/>
+<wire x1="10.16" y1="5.08" x2="10.16" y2="3.81" width="0.254" layer="94"/>
+<wire x1="10.16" y1="3.81" x2="10.16" y2="2.54" width="0.254" layer="94"/>
+<wire x1="10.16" y1="2.54" x2="8.89" y2="2.54" width="0.254" layer="94"/>
+<wire x1="8.89" y1="-5.08" x2="8.89" y2="-6.35" width="0.254" layer="94"/>
+<wire x1="8.89" y1="-6.35" x2="8.89" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="8.89" y1="-7.62" x2="10.16" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-7.62" x2="10.16" y2="-6.35" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-6.35" x2="8.89" y2="-6.35" width="0.254" layer="94"/>
+<wire x1="5.08" y1="10.16" x2="8.89" y2="10.16" width="0.254" layer="94"/>
+<wire x1="5.08" y1="0" x2="8.89" y2="0" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-10.16" x2="8.89" y2="-10.16" width="0.254" layer="94"/>
+<pin name="P$1" x="13.97" y="-10.16" length="middle" rot="R180"/>
+<pin name="P$2" x="13.97" y="0" length="middle" rot="R180"/>
+<pin name="P$3" x="13.97" y="10.16" length="middle" rot="R180"/>
+<pin name="P$4" x="-5.08" y="10.16" length="middle"/>
+<pin name="P$5" x="-5.08" y="0" length="middle"/>
+<pin name="P$6" x="-5.08" y="-10.16" length="middle"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -851,6 +929,26 @@
 <attribute name="MPN" value="TAJB107K006RNJ" constant="no"/>
 <attribute name="VALUE" value="100uF" constant="no"/>
 </technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="QBLP679E-RGB">
+<gates>
+<gate name="G$1" symbol="RGB_LED" x="-2.54" y="0"/>
+</gates>
+<devices>
+<device name="" package="QBLP679E-RGB">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$1"/>
+<connect gate="G$1" pin="P$2" pad="P$2"/>
+<connect gate="G$1" pin="P$3" pad="P$3"/>
+<connect gate="G$1" pin="P$4" pad="P$4"/>
+<connect gate="G$1" pin="P$5" pad="P$5"/>
+<connect gate="G$1" pin="P$6" pad="P$6"/>
+</connects>
+<technologies>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
