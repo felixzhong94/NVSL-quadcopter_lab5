@@ -1,0 +1,4 @@
+The Design will use 3 leds (2 green and 1 rgb led)
+2 green led are pwd controllable
+1 rgb led is not pwm controllable but can be configured in 7 different colors
+used resistor to limit current pull form all led to less than 50ma

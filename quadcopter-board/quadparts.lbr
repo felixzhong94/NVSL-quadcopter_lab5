@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="99" name="SpiceOrder" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="100" name="tFaceplateCover" color="11" fill="1" visible="yes" active="yes"/>
@@ -862,8 +862,8 @@
 <attribute name="CREATOR" value="Xuefei" constant="no"/>
 <attribute name="DIST" value="DIGIKEY" constant="no"/>
 <attribute name="DISTPN" value="497-13902-1-ND" constant="no"/>
-<attribute name="MFP" value="LSM9DS0TR" constant="no"/>
 <attribute name="MFR" value="STMicroelectronics" constant="no"/>
+<attribute name="MPN" value="LSM9DS0TR" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -881,7 +881,14 @@
 <connect gate="G$1" pin="P$3_D" pad="P$3"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="CREATOR" value="Xuefei" constant="no"/>
+<attribute name="DIST" value="DIGIKEY" constant="no"/>
+<attribute name="DISTPN" value="SI2302CDS-T1-E3CT-ND" constant="no"/>
+<attribute name="MFR" value="Vishay Siliconix" constant="no"/>
+<attribute name="MPN" value="SI2302CDS-T1-E3" constant="no"/>
+<attribute name="VALUE" value="2.6A" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="W/O_HEAT_SINK" package="LITTLE_FOOT_MOSFET_MINIUM">
@@ -940,7 +947,7 @@
 <technology name="">
 <attribute name="CREATOR" value="Xuefei" constant="no"/>
 <attribute name="DIST" value="DIGIKEY" constant="no"/>
-<attribute name="DISTPIN" value="160-1178-1-ND" constant="no"/>
+<attribute name="DISTPN" value="160-1178-1-ND" constant="no"/>
 <attribute name="MFR" value="Lite-On Inc" constant="no"/>
 <attribute name="MPN" value="LTST-C170EKT" constant="no"/>
 <attribute name="VALUE" value="RED" constant="no"/>
