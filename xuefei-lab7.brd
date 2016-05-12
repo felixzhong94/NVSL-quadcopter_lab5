@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="no" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.001" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -2522,76 +2522,6 @@
 </library>
 <library name="quadparts">
 <packages>
-<package name="MALE_HEADER_2X1_0.1IN">
-<description>Header, Vertical,2.54 mm pitch;0.635 mm lead width,2 pins,1 row,2 pins per row,5.08 mm L X 2.54 mm W X 8.38 mm H body&lt;p&gt;&lt;i&gt;PCB Libraries Packages&lt;/i&gt;</description>
-<wire x1="-0.4233" y1="1.27" x2="3.81" y2="1.27" width="0.12" layer="51"/>
-<wire x1="-1.27" y1="-1.27" x2="-1.27" y2="0.4233" width="0.12" layer="51"/>
-<wire x1="-1.27" y1="-1.27" x2="3.81" y2="-1.27" width="0.12" layer="21"/>
-<wire x1="-1.27" y1="0.4233" x2="-0.4233" y2="1.27" width="0.12" layer="51"/>
-<wire x1="-1.27" y1="0.4233" x2="-1.27" y2="-1.27" width="0.12" layer="21"/>
-<wire x1="-1.27" y1="0.4233" x2="-1.27" y2="1.27" width="0.001" layer="51"/>
-<wire x1="-1.27" y1="1.27" x2="-0.4233" y2="1.27" width="0.001" layer="51"/>
-<wire x1="-1.52" y1="-1.52" x2="-1.52" y2="1.52" width="0.05" layer="39"/>
-<wire x1="-1.52" y1="1.52" x2="4.06" y2="1.52" width="0.05" layer="39"/>
-<circle x="0" y="0" radius="0.25" width="0.05" layer="39"/>
-<wire x1="0" y1="0.35" x2="0" y2="-0.35" width="0.05" layer="39"/>
-<polygon width="0.01" layer="29">
-<vertex x="-0.825" y="-0.825"/>
-<vertex x="-0.825" y="0.825"/>
-<vertex x="0.825" y="0.825"/>
-<vertex x="0.825" y="-0.825"/>
-</polygon>
-<polygon width="0.01" layer="29">
-<vertex x="3.36" y="0"/>
-<vertex x="3.3475" y="0.1424"/>
-<vertex x="3.3105" y="0.2805"/>
-<vertex x="3.2501" y="0.41"/>
-<vertex x="3.1682" y="0.5271"/>
-<vertex x="3.0671" y="0.6282"/>
-<vertex x="2.95" y="0.7101"/>
-<vertex x="2.8205" y="0.7705"/>
-<vertex x="2.6824" y="0.8075"/>
-<vertex x="2.54" y="0.82"/>
-<vertex x="2.3976" y="0.8075"/>
-<vertex x="2.2595" y="0.7705"/>
-<vertex x="2.13" y="0.7101"/>
-<vertex x="2.0129" y="0.6282"/>
-<vertex x="1.9118" y="0.5271"/>
-<vertex x="1.8299" y="0.41"/>
-<vertex x="1.7695" y="0.2805"/>
-<vertex x="1.7325" y="0.1424"/>
-<vertex x="1.72" y="0"/>
-<vertex x="1.7325" y="-0.1424"/>
-<vertex x="1.7695" y="-0.2805"/>
-<vertex x="1.8299" y="-0.41"/>
-<vertex x="1.9118" y="-0.5271"/>
-<vertex x="2.0129" y="-0.6282"/>
-<vertex x="2.13" y="-0.7101"/>
-<vertex x="2.2595" y="-0.7705"/>
-<vertex x="2.3976" y="-0.8075"/>
-<vertex x="2.54" y="-0.82"/>
-<vertex x="2.6824" y="-0.8075"/>
-<vertex x="2.8205" y="-0.7705"/>
-<vertex x="2.95" y="-0.7101"/>
-<vertex x="3.0671" y="-0.6282"/>
-<vertex x="3.1682" y="-0.5271"/>
-<vertex x="3.2501" y="-0.41"/>
-<vertex x="3.3105" y="-0.2805"/>
-<vertex x="3.3475" y="-0.1424"/>
-</polygon>
-<wire x1="0.35" y1="0" x2="-0.35" y2="0" width="0.05" layer="39"/>
-<text x="-1.1684" y="-3.048" size="1.2" layer="25" font="vector" ratio="10">&gt;NAME</text>
-<text x="-1.1684" y="1.8288" size="1.2" layer="27" font="vector" ratio="10">&gt;VALUE</text>
-<text x="-1.2192" y="-3.81" size="2" layer="51" font="vector" ratio="10">&gt;NAME</text>
-<wire x1="3.81" y1="-1.27" x2="-1.27" y2="-1.27" width="0.12" layer="51"/>
-<wire x1="3.81" y1="-1.27" x2="3.81" y2="1.27" width="0.12" layer="21"/>
-<wire x1="3.81" y1="1.27" x2="-0.4233" y2="1.27" width="0.12" layer="21"/>
-<wire x1="3.81" y1="1.27" x2="3.81" y2="-1.27" width="0.12" layer="51"/>
-<wire x1="4.06" y1="-1.52" x2="-1.52" y2="-1.52" width="0.05" layer="39"/>
-<wire x1="4.06" y1="1.52" x2="4.06" y2="-1.52" width="0.05" layer="39"/>
-<pad name="1" x="0" y="0" drill="1.1" diameter="1.65" shape="square" stop="no" first="yes"/>
-<pad name="2" x="2.54" y="0" drill="1.1" diameter="1.65" rot="R80" stop="no"/>
-</package>
 <package name="LGA-24_4X4MM">
 <circle x="1.75" y="1.75" radius="0.05" width="0.127" layer="51"/>
 <smd name="P$1" x="1.25" y="2.3" dx="0.3" dy="1.6" layer="1"/>
@@ -3909,6 +3839,124 @@
 </package>
 </packages>
 </library>
+<library name="quadparts-rev2">
+<packages>
+<package name="MALE_HEADER_2X1_0.1IN">
+<description>Header, Vertical,2.54 mm pitch;0.635 mm lead width,2 pins,1 row,2 pins per row,5.08 mm L X 2.54 mm W X 8.38 mm H body&lt;p&gt;&lt;i&gt;PCB Libraries Packages&lt;/i&gt;</description>
+<wire x1="-0.4233" y1="1.27" x2="3.81" y2="1.27" width="0.12" layer="51"/>
+<wire x1="-1.27" y1="-1.27" x2="-1.27" y2="0.4233" width="0.12" layer="51"/>
+<wire x1="-1.27" y1="-1.27" x2="3.81" y2="-1.27" width="0.12" layer="21"/>
+<wire x1="-1.27" y1="0.4233" x2="-0.4233" y2="1.27" width="0.12" layer="51"/>
+<wire x1="-1.27" y1="0.4233" x2="-1.27" y2="-1.27" width="0.12" layer="21"/>
+<wire x1="-1.27" y1="0.4233" x2="-1.27" y2="1.27" width="0.001" layer="51"/>
+<wire x1="-1.27" y1="1.27" x2="-0.4233" y2="1.27" width="0.001" layer="51"/>
+<wire x1="-1.52" y1="-1.52" x2="-1.52" y2="1.52" width="0.05" layer="39"/>
+<wire x1="-1.52" y1="1.52" x2="4.06" y2="1.52" width="0.05" layer="39"/>
+<circle x="0" y="0" radius="0.25" width="0.05" layer="39"/>
+<wire x1="0" y1="0.35" x2="0" y2="-0.35" width="0.05" layer="39"/>
+<polygon width="0.01" layer="29">
+<vertex x="-0.825" y="-0.825"/>
+<vertex x="-0.825" y="0.825"/>
+<vertex x="0.825" y="0.825"/>
+<vertex x="0.825" y="-0.825"/>
+</polygon>
+<polygon width="0.01" layer="29">
+<vertex x="3.36" y="0"/>
+<vertex x="3.3475" y="0.1424"/>
+<vertex x="3.3105" y="0.2805"/>
+<vertex x="3.2501" y="0.41"/>
+<vertex x="3.1682" y="0.5271"/>
+<vertex x="3.0671" y="0.6282"/>
+<vertex x="2.95" y="0.7101"/>
+<vertex x="2.8205" y="0.7705"/>
+<vertex x="2.6824" y="0.8075"/>
+<vertex x="2.54" y="0.82"/>
+<vertex x="2.3976" y="0.8075"/>
+<vertex x="2.2595" y="0.7705"/>
+<vertex x="2.13" y="0.7101"/>
+<vertex x="2.0129" y="0.6282"/>
+<vertex x="1.9118" y="0.5271"/>
+<vertex x="1.8299" y="0.41"/>
+<vertex x="1.7695" y="0.2805"/>
+<vertex x="1.7325" y="0.1424"/>
+<vertex x="1.72" y="0"/>
+<vertex x="1.7325" y="-0.1424"/>
+<vertex x="1.7695" y="-0.2805"/>
+<vertex x="1.8299" y="-0.41"/>
+<vertex x="1.9118" y="-0.5271"/>
+<vertex x="2.0129" y="-0.6282"/>
+<vertex x="2.13" y="-0.7101"/>
+<vertex x="2.2595" y="-0.7705"/>
+<vertex x="2.3976" y="-0.8075"/>
+<vertex x="2.54" y="-0.82"/>
+<vertex x="2.6824" y="-0.8075"/>
+<vertex x="2.8205" y="-0.7705"/>
+<vertex x="2.95" y="-0.7101"/>
+<vertex x="3.0671" y="-0.6282"/>
+<vertex x="3.1682" y="-0.5271"/>
+<vertex x="3.2501" y="-0.41"/>
+<vertex x="3.3105" y="-0.2805"/>
+<vertex x="3.3475" y="-0.1424"/>
+</polygon>
+<wire x1="0.35" y1="0" x2="-0.35" y2="0" width="0.05" layer="39"/>
+<text x="-1.1684" y="-3.048" size="1.2" layer="25" font="vector" ratio="10">&gt;NAME</text>
+<text x="-1.1684" y="1.8288" size="1.2" layer="27" font="vector" ratio="10">&gt;VALUE</text>
+<text x="-1.2192" y="-3.81" size="2" layer="51" font="vector" ratio="10">&gt;NAME</text>
+<wire x1="3.81" y1="-1.27" x2="-1.27" y2="-1.27" width="0.12" layer="51"/>
+<wire x1="3.81" y1="-1.27" x2="3.81" y2="1.27" width="0.12" layer="21"/>
+<wire x1="3.81" y1="1.27" x2="-0.4233" y2="1.27" width="0.12" layer="21"/>
+<wire x1="3.81" y1="1.27" x2="3.81" y2="-1.27" width="0.12" layer="51"/>
+<wire x1="4.06" y1="-1.52" x2="-1.52" y2="-1.52" width="0.05" layer="39"/>
+<wire x1="4.06" y1="1.52" x2="4.06" y2="-1.52" width="0.05" layer="39"/>
+<pad name="1" x="0" y="0" drill="1.1" diameter="1.65" shape="square" stop="no" first="yes"/>
+<pad name="2" x="2.54" y="0" drill="1.1" diameter="1.65" rot="R80" stop="no"/>
+<polygon width="0.01" layer="30">
+<vertex x="3.36" y="0"/>
+<vertex x="3.3475" y="0.1424"/>
+<vertex x="3.3105" y="0.2805"/>
+<vertex x="3.2501" y="0.41"/>
+<vertex x="3.1682" y="0.5271"/>
+<vertex x="3.0671" y="0.6282"/>
+<vertex x="2.95" y="0.7101"/>
+<vertex x="2.8205" y="0.7705"/>
+<vertex x="2.6824" y="0.8075"/>
+<vertex x="2.54" y="0.82"/>
+<vertex x="2.3976" y="0.8075"/>
+<vertex x="2.2595" y="0.7705"/>
+<vertex x="2.13" y="0.7101"/>
+<vertex x="2.0129" y="0.6282"/>
+<vertex x="1.9118" y="0.5271"/>
+<vertex x="1.8299" y="0.41"/>
+<vertex x="1.7695" y="0.2805"/>
+<vertex x="1.7325" y="0.1424"/>
+<vertex x="1.72" y="0"/>
+<vertex x="1.7325" y="-0.1424"/>
+<vertex x="1.7695" y="-0.2805"/>
+<vertex x="1.8299" y="-0.41"/>
+<vertex x="1.9118" y="-0.5271"/>
+<vertex x="2.0129" y="-0.6282"/>
+<vertex x="2.13" y="-0.7101"/>
+<vertex x="2.2595" y="-0.7705"/>
+<vertex x="2.3976" y="-0.8075"/>
+<vertex x="2.54" y="-0.82"/>
+<vertex x="2.6824" y="-0.8075"/>
+<vertex x="2.8205" y="-0.7705"/>
+<vertex x="2.95" y="-0.7101"/>
+<vertex x="3.0671" y="-0.6282"/>
+<vertex x="3.1682" y="-0.5271"/>
+<vertex x="3.2501" y="-0.41"/>
+<vertex x="3.3105" y="-0.2805"/>
+<vertex x="3.3475" y="-0.1424"/>
+</polygon>
+<polygon width="0.01" layer="30">
+<vertex x="-0.825" y="-0.825"/>
+<vertex x="-0.825" y="0.825"/>
+<vertex x="0.825" y="0.825"/>
+<vertex x="0.825" y="-0.825"/>
+</polygon>
+</package>
+</packages>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -3920,7 +3968,7 @@
 <class number="1" name="HighAmps" width="0.762" drill="0">
 </class>
 </classes>
-<designrules name="Xuefei-4pcb-33board">
+<designrules name="4pcb-33board *">
 <description language="de">&lt;b&gt;EAGLE Design Rules&lt;/b&gt;
 &lt;p&gt;
 Die Standard-Design-Rules sind so gewählt, dass sie für 
@@ -3965,7 +4013,7 @@ design rules under a new name.</description>
 <param name="rvMicroViaInner" value="0.25"/>
 <param name="rlMinPadTop" value="10mil"/>
 <param name="rlMaxPadTop" value="20mil"/>
-<param name="rlMinPadInner" value="10mil"/>
+<param name="rlMinPadInner" value="15mil"/>
 <param name="rlMaxPadInner" value="20mil"/>
 <param name="rlMinPadBottom" value="10mil"/>
 <param name="rlMaxPadBottom" value="20mil"/>
@@ -4324,15 +4372,6 @@ design rules under a new name.</description>
 <attribute name="DISTPN" value="CRS08QMCT-ND" x="-28" y="-27.6" size="1.778" layer="27" rot="R135" display="off"/>
 <attribute name="VALUE" x="-23.6" y="-28.4" size="1.2" layer="27" font="vector" ratio="10" rot="R135"/>
 </element>
-<element name="J4" library="quadparts" package="MALE_HEADER_2X1_0.1IN" value="" x="-11" y="-14.62" smashed="yes" rot="R180">
-<attribute name="DIST" value="Digikey" x="-11" y="-14.62" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MPN" value="961102-6404-AR" x="-11" y="-14.62" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MFR" value="3M" x="-11" y="-14.62" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="CREATOR" value="SWANSON" x="-11" y="-14.62" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DISTPN" value="3M9447-ND" x="-11" y="-14.62" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="-9.8316" y="-16.4488" size="1.2" layer="27" font="vector" ratio="10" rot="R180"/>
-<attribute name="NAME" x="-10.1808" y="-16.31" size="2" layer="51" font="vector" ratio="10" rot="R180"/>
-</element>
 <element name="R1" library="quadparts_prebuilt" package="RESC2012X60_HS" value="10K" x="5" y="-3.25" smashed="yes" rot="R90">
 <attribute name="DIST" value="Digikey" x="5" y="-3.25" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="RC0805JR-0710KL" x="5" y="-3.25" size="1.778" layer="27" rot="R90" display="off"/>
@@ -4580,28 +4619,28 @@ design rules under a new name.</description>
 <attribute name="NAME" x="-39.5412" y="16.9462" size="1.27" layer="25" ratio="10" rot="R270"/>
 </element>
 <element name="PIN_3" library="quadparts_prebuilt" package="MOTOR_PADS" value="MOTOR_PADS" x="31" y="31" smashed="yes" rot="R315">
-<attribute name="NAME" x="31" y="34.53553125" size="1.27" layer="21" rot="R315"/>
+<attribute name="NAME" x="31" y="34.83553125" size="1.27" layer="21" rot="R315"/>
 <attribute name="MPN" value="NA" x="31" y="31" size="1.778" layer="27" rot="R315" display="off"/>
 <attribute name="DISTPN" value="NA" x="31" y="31" size="1.778" layer="27" rot="R315" display="off"/>
 <attribute name="DIST" value="NA" x="31" y="31" size="1.778" layer="27" rot="R315" display="off"/>
 <attribute name="MFR" value="NA" x="31" y="31" size="1.778" layer="27" rot="R315" display="off"/>
 </element>
 <element name="PIN_4" library="quadparts_prebuilt" package="MOTOR_PADS" value="MOTOR_PADS" x="31" y="-31" smashed="yes" rot="R45">
-<attribute name="NAME" x="31.664465625" y="-35.5" size="1.27" layer="21" rot="R45"/>
+<attribute name="NAME" x="32.864465625" y="-34.3" size="1.27" layer="21" rot="R45"/>
 <attribute name="MPN" value="NA" x="31" y="-31" size="1.778" layer="27" rot="R45" display="off"/>
 <attribute name="DISTPN" value="NA" x="31" y="-31" size="1.778" layer="27" rot="R45" display="off"/>
 <attribute name="DIST" value="NA" x="31" y="-31" size="1.778" layer="27" rot="R45" display="off"/>
 <attribute name="MFR" value="NA" x="31" y="-31" size="1.778" layer="27" rot="R45" display="off"/>
 </element>
 <element name="PIN_5" library="quadparts_prebuilt" package="MOTOR_PADS" value="MOTOR_PADS" x="-31" y="-31" smashed="yes" rot="R135">
-<attribute name="NAME" x="-31" y="-34.53553125" size="1.27" layer="21" rot="R135"/>
+<attribute name="NAME" x="-32.1" y="-33.73553125" size="1.27" layer="21" rot="R135"/>
 <attribute name="MPN" value="NA" x="-31" y="-31" size="1.778" layer="27" rot="R135" display="off"/>
 <attribute name="DISTPN" value="NA" x="-31" y="-31" size="1.778" layer="27" rot="R135" display="off"/>
 <attribute name="DIST" value="NA" x="-31" y="-31" size="1.778" layer="27" rot="R135" display="off"/>
 <attribute name="MFR" value="NA" x="-31" y="-31" size="1.778" layer="27" rot="R135" display="off"/>
 </element>
 <element name="PIN_8" library="quadparts_prebuilt" package="MOTOR_PADS" value="MOTOR_PADS" x="-31" y="31" smashed="yes" rot="R225">
-<attribute name="NAME" x="-35.364465625" y="30.4" size="1.27" layer="21" rot="R45"/>
+<attribute name="NAME" x="-35.264465625" y="30" size="1.27" layer="21" rot="R45"/>
 <attribute name="MPN" value="NA" x="-31" y="31" size="1.778" layer="27" rot="R225" display="off"/>
 <attribute name="DISTPN" value="NA" x="-31" y="31" size="1.778" layer="27" rot="R225" display="off"/>
 <attribute name="DIST" value="NA" x="-31" y="31" size="1.778" layer="27" rot="R225" display="off"/>
@@ -4652,6 +4691,13 @@ design rules under a new name.</description>
 </element>
 <element name="U$14" library="Lab2" package="UCSD_LOGO" value="" x="2.9" y="19.5" rot="R180"/>
 <element name="U$15" library="logo" package="EAGLE-PLC-8MM" value="" x="-44.2" y="-44.6"/>
+<element name="J1" library="quadparts-rev2" package="MALE_HEADER_2X1_0.1IN" value="" x="-11.2" y="-14.6" rot="R180">
+<attribute name="MFR" value="3M" x="-11.2" y="-14.6" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="CREATOR" value="SWANSON" x="-11.2" y="-14.6" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DIST" value="Digikey" x="-11.2" y="-14.6" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DISTPN" value="3M9447-ND" x="-11.2" y="-14.6" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="961102-6404-AR" x="-11.2" y="-14.6" size="1.778" layer="27" rot="R180" display="off"/>
+</element>
 </elements>
 <signals>
 <signal name="GND">
@@ -5334,7 +5380,6 @@ design rules under a new name.</description>
 <contactref element="C17" pad="1"/>
 <contactref element="U$2" pad="1"/>
 <contactref element="U$2" pad="3"/>
-<contactref element="J4" pad="2"/>
 <contactref element="C1" pad="1"/>
 <contactref element="C12" pad="1"/>
 <contactref element="U$6" pad="P$1"/>
@@ -5355,8 +5400,8 @@ design rules under a new name.</description>
 <wire x1="-14.04" y1="-13" x2="-14.04" y2="-9.9" width="0.5" layer="1"/>
 <wire x1="-14.04" y1="-9.9" x2="-13.54" y2="-9.13" width="0.5" layer="1"/>
 <wire x1="-13.54" y1="-9.13" x2="-13.51" y2="-9.1" width="0.5" layer="1"/>
-<wire x1="-12.2" y1="-13" x2="-13.4" y2="-13" width="0.5" layer="1"/>
-<wire x1="-13.4" y1="-13" x2="-14.04" y2="-13" width="0.5" layer="1"/>
+<wire x1="-12.2" y1="-13" x2="-13.74" y2="-13" width="0.5" layer="1"/>
+<wire x1="-13.74" y1="-13" x2="-14.04" y2="-13" width="0.5" layer="1"/>
 <wire x1="-15.605" y1="-9.9" x2="-14.04" y2="-9.9" width="0.5" layer="1"/>
 <wire x1="30.292890625" y1="31.70710625" x2="29.552440625" y2="31.50710625" width="1" layer="1"/>
 <wire x1="29.552440625" y1="31.50710625" x2="26.822665625" y2="28.77733125" width="1" layer="1"/>
@@ -5408,15 +5453,14 @@ design rules under a new name.</description>
 <via x="-20" y="-17" extent="1-16" drill="0.6" shape="square"/>
 <wire x1="-21" y1="-17" x2="-21" y2="-18.8091875" width="1" layer="1"/>
 <wire x1="-21" y1="-18.8091875" x2="-19.45459375" y2="-20.35459375" width="1" layer="1"/>
-<wire x1="-17.5" y1="-14.395" x2="-14" y2="-14.395" width="0.3" layer="1"/>
-<wire x1="-14" y1="-14.395" x2="-13.765" y2="-14.395" width="0.3" layer="1"/>
-<wire x1="-13.765" y1="-14.395" x2="-13.54" y2="-14.62" width="0.3" layer="1"/>
 <wire x1="-11.61" y1="-9.1" x2="-11.61" y2="-12.41" width="0.5" layer="1"/>
 <wire x1="-11.61" y1="-12.41" x2="-12.2" y2="-13" width="0.5" layer="1"/>
 <wire x1="-14.04" y1="-13" x2="-14" y2="-13" width="0.3" layer="1"/>
 <wire x1="-14" y1="-13" x2="-14" y2="-12.9" width="0.3" layer="1"/>
-<wire x1="-14" y1="-14.395" x2="-13.4" y2="-14.395" width="0.5" layer="1"/>
-<wire x1="-13.4" y1="-14.395" x2="-13.4" y2="-13" width="0.5" layer="1"/>
+<contactref element="J1" pad="2"/>
+<wire x1="-13.74" y1="-13" x2="-13.74" y2="-14.6" width="0.5" layer="1"/>
+<wire x1="-17.5" y1="-14.395" x2="-13.74" y2="-14.395" width="0.5" layer="1"/>
+<wire x1="-13.74" y1="-14.395" x2="-13.74" y2="-14.6" width="0.5" layer="1"/>
 </signal>
 <signal name="DTR">
 <contactref element="C3" pad="1"/>
@@ -5570,10 +5614,11 @@ design rules under a new name.</description>
 <wire x1="5.855" y1="-0.75" x2="7.4" y2="-2.295" width="0.3" layer="1"/>
 </signal>
 <signal name="N$17">
-<contactref element="J4" pad="1"/>
 <contactref element="BATT1" pad="+"/>
-<wire x1="-11" y1="-14.62" x2="-2.555" y2="-14.62" width="0.3" layer="1"/>
 <wire x1="-2.555" y1="-14.62" x2="-2.54" y2="-14.605" width="0.3" layer="1"/>
+<contactref element="J1" pad="1"/>
+<wire x1="-11.2" y1="-14.6" x2="-2.54" y2="-14.6" width="0.4064" layer="1"/>
+<wire x1="-2.54" y1="-14.6" x2="-2.54" y2="-14.605" width="0.4064" layer="1"/>
 </signal>
 <signal name="N$18">
 <contactref element="R9" pad="2"/>
@@ -5848,6 +5893,96 @@ design rules under a new name.</description>
 <vertex x="-2.5" y="-2.5"/>
 <vertex x="2.5" y="-2.5"/>
 <vertex x="2.5" y="2.5"/>
+</polygon>
+</signal>
+<signal name="N$26">
+<polygon width="0.0254" layer="2" pour="cutout" orphans="yes" thermals="no">
+<vertex x="-8.6868" y="12.4968"/>
+<vertex x="-8.6868" y="10.7188"/>
+<vertex x="-5.9944" y="10.7188"/>
+<vertex x="-5.9944" y="13.4366"/>
+<vertex x="-8.6868" y="13.4366"/>
+<vertex x="-8.6868" y="12.4714"/>
+</polygon>
+<polygon width="0.0254" layer="2" pour="cutout" orphans="yes" thermals="no">
+<vertex x="6.0198" y="12.4714"/>
+<vertex x="6.0198" y="10.6934"/>
+<vertex x="8.7122" y="10.6934"/>
+<vertex x="8.7122" y="13.4112"/>
+<vertex x="6.0198" y="13.4112"/>
+<vertex x="6.0198" y="12.446"/>
+</polygon>
+<polygon width="0.0254" layer="2" pour="cutout" orphans="yes" thermals="no">
+<vertex x="6.0198" y="12.4714"/>
+<vertex x="6.0198" y="10.6934"/>
+<vertex x="8.7122" y="10.6934"/>
+<vertex x="8.7122" y="13.4112"/>
+<vertex x="6.0198" y="13.4112"/>
+<vertex x="6.0198" y="12.446"/>
+</polygon>
+<polygon width="0.0254" layer="2" pour="cutout" orphans="yes" thermals="no">
+<vertex x="5.9944" y="-11.6078"/>
+<vertex x="5.9944" y="-13.3858"/>
+<vertex x="8.6868" y="-13.3858"/>
+<vertex x="8.6868" y="-10.668"/>
+<vertex x="5.9944" y="-10.668"/>
+<vertex x="5.9944" y="-11.6332"/>
+</polygon>
+<polygon width="0.0254" layer="2" pour="cutout" orphans="yes" thermals="no">
+<vertex x="5.9944" y="-11.6078"/>
+<vertex x="5.9944" y="-13.3858"/>
+<vertex x="8.6868" y="-13.3858"/>
+<vertex x="8.6868" y="-10.668"/>
+<vertex x="5.9944" y="-10.668"/>
+<vertex x="5.9944" y="-11.6332"/>
+</polygon>
+<polygon width="0.0254" layer="2" pour="cutout" orphans="yes" thermals="no">
+<vertex x="-8.7122" y="-11.6332"/>
+<vertex x="-8.7122" y="-13.4112"/>
+<vertex x="-6.0198" y="-13.4112"/>
+<vertex x="-6.0198" y="-10.6934"/>
+<vertex x="-8.7122" y="-10.6934"/>
+<vertex x="-8.7122" y="-11.6586"/>
+</polygon>
+<polygon width="0.0254" layer="2" pour="cutout" orphans="yes" thermals="no">
+<vertex x="-8.7122" y="-11.6332"/>
+<vertex x="-8.7122" y="-13.4112"/>
+<vertex x="-6.0198" y="-13.4112"/>
+<vertex x="-6.0198" y="-10.6934"/>
+<vertex x="-8.7122" y="-10.6934"/>
+<vertex x="-8.7122" y="-11.6586"/>
+</polygon>
+<polygon width="0.0254" layer="15" pour="cutout" orphans="yes" thermals="no">
+<vertex x="-8.7122" y="-11.6332"/>
+<vertex x="-8.7122" y="-13.4112"/>
+<vertex x="-6.0198" y="-13.4112"/>
+<vertex x="-6.0198" y="-10.6934"/>
+<vertex x="-8.7122" y="-10.6934"/>
+<vertex x="-8.7122" y="-11.6586"/>
+</polygon>
+<polygon width="0.0254" layer="15" pour="cutout" orphans="yes" thermals="no">
+<vertex x="5.9944" y="-11.6078"/>
+<vertex x="5.9944" y="-13.3858"/>
+<vertex x="8.6868" y="-13.3858"/>
+<vertex x="8.6868" y="-10.668"/>
+<vertex x="5.9944" y="-10.668"/>
+<vertex x="5.9944" y="-11.6332"/>
+</polygon>
+<polygon width="0.0254" layer="15" pour="cutout" orphans="yes" thermals="no">
+<vertex x="6.0198" y="12.4714"/>
+<vertex x="6.0198" y="10.6934"/>
+<vertex x="8.7122" y="10.6934"/>
+<vertex x="8.7122" y="13.4112"/>
+<vertex x="6.0198" y="13.4112"/>
+<vertex x="6.0198" y="12.446"/>
+</polygon>
+<polygon width="0.0254" layer="15" pour="cutout" orphans="yes" thermals="no">
+<vertex x="-8.6868" y="12.4968"/>
+<vertex x="-8.6868" y="10.7188"/>
+<vertex x="-5.9944" y="10.7188"/>
+<vertex x="-5.9944" y="13.4366"/>
+<vertex x="-8.6868" y="13.4366"/>
+<vertex x="-8.6868" y="12.4714"/>
 </polygon>
 </signal>
 </signals>
