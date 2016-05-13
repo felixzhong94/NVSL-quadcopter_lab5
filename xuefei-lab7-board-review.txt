@@ -1,0 +1,122 @@
+Design Review
+I flagged potential problems with ***
+
+For this design review, you need to be as careful, meticulous, and demanding as you were on your schematic design review.  Everything I said in class about the importance and value of design reviews applies here as well, only more so. There are many more things that can go wrong in the layout phase than in the schematic.
+
+Use the same reviewer/reviewee team pairs as you did for the schematic review.
+
+The reviewee needs to provide the following materials to the reviewers:
+1. A fully-routed brd file.
+2. The corresponding sch file.
+3. Copies of the libraries used (The reviewee library from lab four and the lab5 lbr if they have made any changes).
+4. A set of gerbers for the same file.
+5. A description of any changes they made to standard library parts, whether it autoroutes, and, if not, what what parts of the design require manual routing.
+Below is a check list of items you should consider during your design review.   The reviewee team should already have used this list as checklist for their design.
+1) Antenna and Antenna Driver
+a) Do all the traces for the antenna driver reside in layer 1?
+i) yes
+b) Is the trace between the balun and the antenna extra-thick?
+i) yes
+c) Are the other two capacitors close to the balun?
+i) yes
+d) Is the trace between the balun and the antenna short (no longer than the corresponding trace on the red board)?
+i) yes
+e) Is there a ground pour in layer Top surrounding the antenna driver components?
+i) no***
+f) Is there a ground pour in layer 2 surround the antenna driver?
+i) no***
+g) Are there vias connecting the two pours and roughly surrounding the antenna driver?
+i) n/a***
+h) Is one of the antenna's pads surrounded by the pours?
+i) n/a***
+i) Is there ample space around the antenna that is free of metal on all four layers?
+i) no*** trim back gnd plane on layer 15
+j) Does the layout roughly match the layout on the red board?
+i) yes
+k) Are there any traces routed through the antenna driver area that are not related to the driver? There should not be.
+i) no
+2) Power and Ground
+a) Does the VBAT power plane reach under all four motor drivers?
+i) Yes ( if(UBAT == VBAT) )
+b) Is the VBAT power plane wider than 0.5mm everywhere?
+i) yes
+c) Does the 3V power plane run under both the IMU and microcontroller?
+i) yes
+d) Does the ground plane extend to almost every area of the board (with the exception of the area round the antenna)?
+i) yes
+e) Are the VBAT and 3V power pours both in the same metal layer (probably layer 2)?
+i) yes
+f) Are there any parts of the power our ground pours that are very narrow?  They should be no "necks" narrower than 0.5mm.
+i) no
+g) Does the VBAT power plane extend to the battery connector?
+i) Yes*** however in this case UBAT is not directly connected to the two pin header
+3) IMU
+a) Is the IMU reasonably close to the center of the board?
+i) yes
+b) Are the capacitors specified in the IMU datasheet located as close as is practical to the IMU?
+i) yes
+c) Is the IMU oriented so that the X and Y axes are aligned with the pitch and roll axis of the quadcopter?
+i) Yes (assuming x configuration of quad)
+d) Do any traces related to driving the motors or that carry currents run underneath the IMU (they should not)?  The ground plane doesn't count.
+i) Yes***
+4) Headers
+a) Are the two FTDI headers oriented so the silkscreen is labels for the pins are on the board?
+i) yes
+5) Microcontroller
+a) Is the layout of resonator and the associated caps similar to the layout of those parts on the red board?
+i) yes
+b) Do all the traces for the resonator and its associated caps lie in layer Top?
+i) yes
+c) Are the decoupling caps for the microcontroller located as close as possible to power pins of the microcontroller?
+i) yes
+6) Power Supply
+a) Are the caps associated with the voltage regulator located near the regulator?
+i) Yes C26 can be a little closer if desired
+b) Is the voltage regulator located near the battery connector?
+i) Yes (near 2 pin header where it is connected to)
+c) Does the 3V power plane run underneath the voltage regulator?
+i) yes
+7) Motor Drivers
+a) Are the traces that carry large currents thick enough?
+i) yes
+8) Aesthetics
+a) Does does the layout look nice?
+i) yes
+b) Are nearby parts aligned?
+i) yes
+c) Are the reference designators arranged so they don't overlap each other or pads?
+i) yes
+d) Is there a logo?
+i) no
+9) Mechanical
+a) Given the location of the motors, will the props clear the board (except for the arms)?
+i) yes
+b) Is the "cup" for the motors the right diameter?
+i) yes
+c) Are there any large internal holes in the board?
+i) no
+d) Is the board roughly symmetrical?
+i) Yes (may want to add a tail)
+10) Checks
+a) Does DRC check pass without errors?
+i) no
+b) If DRC doesn't pass with no errors, does the team have good explanations for why the errors are ok?
+i) Need more fixing and adjustment
+c) Does DFM check pass with no show stoppers?
+i) No gerber files found
+d) Does ERC still pass on the schematic?
+i) yes
+11) Gerber Files
+a) Are areas around the antenna clear in the gerber files?
+i) n/a
+b) Are the power planes where you expect them to be in the gerber files?
+i) n/a
+c) Are there any traces that cross in an unexpected way in the gerber files?
+i) n/a
+d) Are there any elements that should be in the silkscreen that show up in metal layers?
+i) n/a
+e) Are there any elements that should be in the metal layers but that show up on the silkscreen?
+i) n/a
+f) Does the board outline match what was draw in the brd file? 
+i) n/a
+
